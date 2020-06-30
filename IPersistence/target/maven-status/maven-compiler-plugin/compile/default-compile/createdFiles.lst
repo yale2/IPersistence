@@ -1,0 +1,17 @@
+com\yale\persistence\config\XMLMapperBuilder.class
+com\yale\persistence\sqlsession\DefaultSqlSession.class
+com\yale\persistence\sqlsession\DefaultSqlSessionFactory.class
+com\yale\persistence\util\GenericTokenParser.class
+com\yale\persistence\sqlsession\Executor.class
+com\yale\persistence\config\Configuration.class
+com\yale\persistence\io\Resources.class
+com\yale\persistence\sqlsession\SqlSession.class
+com\yale\persistence\sqlsession\SqlSessionFactoryBuilder.class
+com\yale\persistence\util\ParameterMapping.class
+com\yale\persistence\util\ParameterMappingTokenHandler.class
+com\yale\persistence\util\TokenHandler.class
+com\yale\persistence\config\XMLConfigBuilder.class
+com\yale\persistence\config\BoundSql.class
+com\yale\persistence\sqlsession\SqlSessionFactory.class
+com\yale\persistence\sqlsession\SimpleExecutor.class
+com\yale\persistence\config\MappedStatement.class

@@ -1,0 +1,3 @@
+com\yale\persistence\test\entity\User.class
+com\yale\persistence\test\entity\IPersistenceTest.class
+com\yale\persistence\test\dao\UserDao.class

@@ -1,0 +1,37 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE configuration-->
+<!--        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"-->
+<!--        "http://mybatis.org/dtd/mybatis-3-config.dtd">-->
+<configuration>
+
+
+    <typeAliases>
+        <package name="com.yale.persistence.test.entity"/>
+    </typeAliases>
+
+    <plugins>
+<!--        <plugin interceptor="com.yale.persistence.test.interceptor.MyInterceptor"></plugin>-->
+    </plugins>
+
+    <environments default="development">
+        <environment id="development">
+            <!--使用jdbc事务管理 -->
+            <transactionManager type="JDBC"/>
+            <!-- 数据库连接池 -->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/test?characterEncoding=utf-8"/>
+                <property name="username" value="root"/>
+                <property name="password" value="root"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+
+
+    <mappers>
+<!--        <package name="com.yale.persistence.test.mapper"/>-->
+        <mapper resource="UserMapper.xml" />
+    </mappers>
+
+</configuration>
