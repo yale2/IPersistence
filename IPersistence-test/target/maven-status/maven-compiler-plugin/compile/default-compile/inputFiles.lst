@@ -1,3 +1,4 @@
-F:\拉钩学习\Java_L2_2020.06.18\Java_L2_2020.06.18\02_讲义及源码\第一阶段\IPersistence-test\src\main\java\com\yale\persistence\test\dao\UserDao.java
-F:\拉钩学习\Java_L2_2020.06.18\Java_L2_2020.06.18\02_讲义及源码\第一阶段\IPersistence-test\src\main\java\com\yale\persistence\test\entity\User.java
-F:\拉钩学习\Java_L2_2020.06.18\Java_L2_2020.06.18\02_讲义及源码\第一阶段\IPersistence-test\src\main\java\com\yale\persistence\test\entity\IPersistenceTest.java
+F:\study\IPersistence\IPersistence-test\src\main\java\com\yale\persistence\test\entity\User.java
+F:\study\IPersistence\IPersistence-test\src\main\java\com\yale\persistence\test\entity\IPersistenceTest.java
+F:\study\IPersistence\IPersistence-test\src\main\java\com\yale\persistence\test\dao\UserDao.java
+F:\study\IPersistence\IPersistence-test\src\main\java\com\yale\persistence\test\interceptor\MyInterceptor.java

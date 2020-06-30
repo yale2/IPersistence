@@ -73,7 +73,6 @@ public class SimpleExecutor implements Executor {
             declaredField.setAccessible(true);
             //通过反射 从params[0]对象中 获取该字段对应的值  传入user:id=1,name='yale' 则id字段赋值为1
             Object o = declaredField.get(params[0]);
-            System.out.println(o);
             //设置preparedStatement中sql对应的参数
             preparedStatement.setObject(i+1,o);
         }
